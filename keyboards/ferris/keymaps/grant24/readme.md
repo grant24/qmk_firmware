@@ -1,14 +1,21 @@
-Modified version of Callum Oakley's ferris 34 key keymap for the ferris sweep.
-Included a gaming layer to mirror QWERTY and have your WASD fingers on the correct finger column.
+A keymap for 34 keys with 5 layers and no mod-tap.
+
+Modified version of Callum Oakley's ferris 34 key keymap for the ferris sweep, including a gaming layer to mirror QWERTY and have your WASD fingers on the correct finger column.
 
   ~ grant24
 
 ![grant24's keymap visual](my_keymap.svg)
 
 
+## Flash & Compile commands:
 
+```
+qmk compile -kb ferris/sweep -km grant24
 
-A keymap for 34 keys with 4 layers and no mod-tap.
+qmk flash -kb ferris/sweep -km grant24 -e CONVERT_TO=promicro_rp2040
+```
+Using the Frood pro-micro drop-in replacement: [GitHub][https://github.com/piit79/Frood]
+
 
 ## Details
 
