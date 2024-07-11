@@ -1,0 +1,109 @@
+layout: {qmk_keyboard: ferris/sweep, qmk_layout: LAYOUT_split_3x5_2}
+layers:
+  Default: [Q, W, F, P, G, J, L, U, Y, '''', A, R, S, T, D, H, N, E, I, O, Z, X, C, V, B, K, M, ',', ., ;, NAV, SHFT, SPC, SYM]
+  Symbols:
+  - ESC
+  - '['
+  - '{'
+  - (
+  - '~'
+  - ^
+  - )
+  - '}'
+  - ']'
+  - '`'
+  - '-'
+  - '*'
+  - '='
+  - _
+  - $
+  - '#'
+  - OS GUI
+  - OS ALT
+  - OS CTRL
+  - OS SHFT
+  - +
+  - '|'
+  - '@'
+  - \
+  - '%'
+  - GME ON
+  - /
+  - '&'
+  - '?'
+  - '!'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SYM
+  Navigation:
+  - SW DESK
+  - SW WIN
+  - MPRV
+  - MNXT
+  - MPLY
+  - QK BOOT
+  - HOME
+  - UP
+  - END
+  - DEL
+  - OS SHFT
+  - OS CTRL
+  - OS ALT
+  - OS GUI
+  - M BTN1
+  - CAPS
+  - LEFT
+  - DOWN
+  - RGHT
+  - BSPC
+  - SCREEN SHOT
+  - FIND
+  - VOLD
+  - VOLU
+  - MUTE
+  - QK REP
+  - PGUP
+  - TAB
+  - PGDN
+  - ENT
+  - NAV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Numbers/Function:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - OS SHFT
+  - OS CTRL
+  - OS ALT
+  - OS GUI
+  - F11
+  - F12
+  - OS GUI
+  - OS ALT
+  - OS CTRL
+  - OS SHFT
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - NAV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SYM
+  Game: [TAB, Q, W, E, R, T, Y, U, I, O, LSFT, A, S, D, F, G, H, J, K, L, LCTL, Z, X, C, V, B, N, M, ',', ., LALT, SPC, ESC, GME OFF]
