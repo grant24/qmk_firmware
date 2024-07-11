@@ -1,4 +1,4 @@
-A keymap for the 34 key ferris sweep with 5 layers and no mod-tap.
+A keymap for the ferris sweep with 5 layers and no mod-tap.
 
 Modified version of Callum Oakley's 34 key keymap, centered around Linux/Windows, with an added gaming layer.
 
