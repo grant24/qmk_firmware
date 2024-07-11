@@ -1,6 +1,6 @@
-A keymap for 34 keys with 5 layers and no mod-tap.
+A keymap for the 34 key ferris sweep with 5 layers and no mod-tap.
 
-Modified version of Callum Oakley's ferris 34 key keymap for the ferris sweep, including a gaming layer to mirror QWERTY and have your WASD fingers on the correct finger column.
+Modified version of Callum Oakley's 34 key keymap, centered around Linux/Windows, with an added gaming layer.
 
   ~ grant24
 
@@ -26,7 +26,7 @@ Using the Frood pro-micro drop-in replacement: [GitHub](https://github.com/piit7
   keys on the base layer, where there are no dedicated modifiers.
 - `swap win` sends `alt-tab` for changing focus but holds `alt`
   between consecutive presses.
-- `swap desk` behaves similarly but sends `gui-tab`, for changing desktop worksapace.
+- `swap desk` behaves similarly but sends `gui-tab`, for changing desktop workspace.
 
 ## Oneshot modifiers
 
@@ -59,9 +59,6 @@ for me.
 
     nav down, swap win, swap win, nav up -> cmd down, tab, tab, cmd up
     nav down, swap win, enter -> cmd down, tab, cmd up, enter
-
-`swap lang` sends `ctrl-space` to swap input languages in macOS and behaves
-similarly.
 
 [Swapper implementation.][]
 
