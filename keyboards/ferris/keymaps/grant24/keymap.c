@@ -6,8 +6,8 @@
 #define LA_SYM MO(SYM)
 #define LA_NAV MO(NAV)
 #define LA_GME TG(GME)
-#define REDO C(KC_Y)
-#define FIND C(KC_F)
+#define SC_SS G(S(KC_S))
+#define SC_FIND C(KC_F)
 
 enum layers {
     DEF, // Default
@@ -44,9 +44,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [NAV] = LAYOUT(
-        SW_DESK, SW_WIN,  KC_VOLD, KC_VOLU, KC_MUTE, QK_BOOT, KC_END,  KC_UP,   KC_HOME, KC_DEL,
-        OS_SHFT, OS_CTRL, OS_ALT,  OS_GUI,  KC_VOLD, KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, KC_BSPC,
-        REDO,    FIND,    KC_MPRV, KC_MNXT, KC_MPLY, QK_REP,  KC_PGDN, KC_TAB,  KC_PGUP, KC_ENT,
+        SW_DESK, SW_WIN,  KC_MPRV, KC_MNXT, KC_MPLY, QK_BOOT, KC_HOME, KC_UP,   KC_END,  KC_DEL,
+        OS_SHFT, OS_CTRL, OS_ALT,  OS_GUI,  KC_BTN1, KC_CAPS, KC_LEFT, KC_DOWN, KC_RGHT, KC_BSPC,
+        SC_SS,   SC_FIND, KC_VOLD, KC_VOLU, KC_MUTE, QK_REP,  KC_PGUP, KC_TAB,  KC_PGDN, KC_ENT,
                                    _______, _______, _______, _______
     ),
 
@@ -69,7 +69,7 @@ bool is_oneshot_cancel_key(uint16_t keycode) {
     switch (keycode) {
     case LA_SYM:
     case LA_NAV:
-    case LA_GME:;
+    case LA_GME:
         return true;
     default:
         return false;

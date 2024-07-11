@@ -14,7 +14,7 @@ qmk compile -kb ferris/sweep -km grant24
 
 qmk flash -kb ferris/sweep -km grant24 -e CONVERT_TO=promicro_rp2040
 ```
-Using the Frood pro-micro drop-in replacement: [GitHub][https://github.com/piit79/Frood]
+Using the Frood pro-micro drop-in replacement: [GitHub](https://github.com/piit79/Frood)
 
 
 ## Details
